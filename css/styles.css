@@ -1,0 +1,185 @@
+/* Universal stylesheet for UbermanSleepSchedule.com */
+/* Author: Alec Rust - www.alecrust.com */
+
+/* Global Reset */
+html, body, h1, h2, h3, h4 p, img, ul, li {
+	margin:0;
+	padding:0;
+	border:0;
+	font-weight:normal;
+	list-style:none;
+}
+
+/* General */
+body {
+	background:#373f54 url(../img/body-bg.png);
+	color:#333;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:0.9em;
+}
+
+a {
+	color:#333;
+	text-decoration:underline;
+}
+
+a:hover { text-decoration:none; }
+
+/* Container */
+#wrap {
+	width:731px;
+	margin:auto;
+}
+
+/* Header */
+#head {
+	width:551px;
+	height:136px;
+	float:right;
+	background:transparent url(../img/head-bg.png) no-repeat;
+	margin:21px 0 15px 0;
+	clear:both;
+}
+
+#head h1 {
+	height:74px;
+	font-family:Impact;
+	font-size:2.4em;
+	text-shadow:#555 2px 2px 2px;
+	font-weight:bold;
+	color:#9ca0aa;
+	padding:20px 0 0 88px;
+	margin:20px 0 0 30px;
+	background:url(../img/h1-bg.png) no-repeat left;
+}
+
+#head h2 {
+	color:#b5b8bf;
+	font-family:Verdana;
+	font-size:0.7em;
+	margin:-30px 0 0 120px;
+}
+
+/* Navigation */
+#navigation {
+	width:180px;
+	float:left;
+	margin-top:287px;
+	padding-bottom:6px;
+	background:transparent url(../img/navigation-bg.png) no-repeat bottom;
+}
+
+#navigation .inner { background-color:#9ca0aa; }
+
+#navigation li { border-bottom:1px solid #fff; }
+
+#navigation li.last { border-bottom:none; }
+
+#navigation a {
+	color:#fff;
+	text-decoration:none;
+	display:block;
+	height:24px;
+	padding:8px 0 0 10px;
+	background-color:#9ca0aa;
+}
+
+#navigation a:active { text-decoration:underline; }
+
+/* Navigation 'current page' status */
+#home .home a,
+#background .background a,
+#benefits .benefits a,
+#drawbacks .drawbacks a,
+#conclusion .conclusion a,
+#faq .faq a { background:#9ca0aa url(../img/navigation-a-bg.gif) no-repeat right; }
+
+/* Advertisement box */
+#advertisement {
+	width:513px;
+	height:66px;
+	float:right;
+	background:transparent url(../img/advertisement-bg.png) no-repeat;
+	margin-bottom:15px;
+	padding:10px 0 10px 38px;
+}
+
+/* Content box */
+#content {
+	width:551px;
+	float:right;
+	background:transparent url(../img/content-bg.png) repeat-y right;
+}
+
+#content .inner {
+	margin:0 6px 0 0;
+	padding:15px 20px 20px 20px;
+	background-color:#fff;
+}
+
+#content-bottom {
+	float:right;
+	width:551px;
+	height:6px;
+	clear:both;
+	display:block;
+	background:transparent url(../img/content-bottom-bg.png) no-repeat;
+}
+
+#content h3 {
+	color:#9ca0aa;
+	font-family:Impact;
+	font-size:1.6em;
+	border-bottom:1px solid #c1cbe5;
+	margin:0 0 20px 0;
+}
+
+#content h4 {
+	color:#9ca0aa;
+	font-size:1.1em;
+	margin:20px 0 10px 10px;
+}
+
+#content p {
+	margin:0 10px 10px 10px;
+	font-size:0.9em;
+	line-height:1.5;
+}
+
+#content p.intro { font-weight:bold; }
+
+#content img.left {
+	float:left;
+	margin:0 20px 20px 0;
+}
+
+#content img.right {
+	float:right;
+	margin:0 0 20px 20px;
+}
+
+/* Footer */
+#foot {
+	width:731px;
+	clear:both;
+	color:#989ca7;
+	font-size:0.75em;
+}
+
+#foot a {
+	color:#989ca7;
+	text-decoration:none;
+	font-weight:bold;
+}
+
+#foot a:hover { color:#fff; }
+
+#foot .copyright {
+	float:left;
+	margin:5px 0 10px 190px;
+}
+
+#foot .created-by {
+	float:right;
+	margin:5px 20px 10px 0;
+}
