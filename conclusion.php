@@ -5,7 +5,6 @@
 		<?php include ("inc/meta.php"); ?>
 		<?php include ("inc/link.php"); ?>
 		<?php include ("inc/jquery-hover-effect.php"); ?>
-		<?php include ("inc/analytics.php"); ?>
 	</head>
 	<body id="conclusion">
 		<div id="wrap">
@@ -24,5 +23,6 @@
 			<div id="content-bottom"></div>
 			<?php include ("inc/foot.php"); ?>
 		</div>
+        <?php include ("inc/analytics.php"); ?>
 	</body>
 </html>
